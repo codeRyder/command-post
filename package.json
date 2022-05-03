@@ -1,0 +1,16 @@
+{
+  "name": "command-post",
+  "version": "1.0.0",
+  "description": "JvM Neckar Boilerplate",
+  "main": "index.js",
+  "repository": "git@github.com:codeRyder/command-post.git",
+  "author": "Felix Hammer <felix.hammer@jvm.de>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start:nuxt3": "yarn --cwd ./nuxt3 dev",
+    "build:nuxt3": "yarn --cwd ./nuxt3 build",
+    "generate:nuxt3": "yarn --cwd ./nuxt3 generate",
+    "preview:nuxt3": "yarn --cwd ./nuxt3 preview"
+  }
+}

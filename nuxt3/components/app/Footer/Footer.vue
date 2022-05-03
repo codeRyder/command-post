@@ -6,4 +6,4 @@
   </div>
 </template>
 
-<style src="./AppFooter.scss" />
+<style src="./Footer.scss" />

@@ -1,13 +1,19 @@
-<script lang="ts" setup></script>
-
 <template>
 	<div class="app-wrapper">
-		<AppHeader> </AppHeader>
-		<div class="app-main">
-
-		</div>
-		<AppFooter> </AppFooter>
+		<Header> </Header>
+		<div class="app-main"></div>
+		<Footer> </Footer>
 	</div>
 </template>
 
-<style/>
+<script setup>
+	const { $storyBlok }  = useNuxtApp();
+	console.log($storyBlok)
+	const { data } = await $storyBlok('home', { version: 'draft' })
+	const state = reactive({ stories: data })
+	// onMounted(() => {
+	// 	useStoryBridge(id, (story) => (state.story = story))
+	// })
+</script>
+
+<style />

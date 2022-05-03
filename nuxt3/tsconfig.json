@@ -1,5 +1,17 @@
 {
 	// https://v3.nuxtjs.org/concepts/typescript
 	"extends": "./.nuxt/tsconfig.json",
-	"types": ["@pinia/nuxt"]
+	"types": ["@pinia/nuxt", "@nuxt/types"],
+	"compilerOptions": {
+		"target": "ESNext",
+		"module": "ESNext",
+		"moduleResolution": "Node",
+		"strict": false,
+		"allowJs": true,
+		"resolveJsonModule": true,
+		"types": ["node"]
+	},
+	"paths": {
+		"#app": ["./node_modules/nuxt3/dist/app/index"]
+	}
 }
