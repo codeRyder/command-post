@@ -1,0 +1,3 @@
+@function pxToRem ($value, $context: 16px) {
+	@return math.div($value, $context) * 1rem;
+}

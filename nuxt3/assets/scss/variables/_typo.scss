@@ -1,0 +1,33 @@
+// FONT FAMILIES
+
+$ff-hl: 'Avenir', Helvetica, Arial, sans-serif;
+$ff-bc: 'Avenir', Helvetica, Arial, sans-serif;
+
+// FONT SIZES
+
+// Headlines
+$fs-hl-lg: pxToRem(60px);
+$fs-hl-md: pxToRem(44px);
+$fs-hl-sm: pxToRem(30px);
+$fs-hl-xs: pxToRem(26px);
+// Body copy
+$fs-bc-lg: pxToRem(22px);
+$fs-bc-md: pxToRem(18px);
+$fs-bc-sm: pxToRem(14px);
+$fs-bc-xs: pxToRem(12px);
+$fs-bc-xxs: pxToRem(10px);
+
+// LINE HEIGHTS
+
+//desktop
+$lh-d-bc: 1.6;
+$lh-d-hl: 1;
+
+//mobile
+$lh-m-bc: 1.6;
+$lh-m-hl: 1;
+
+// FONT WEIGHTS
+$fw-normal: 400;
+$fw-medium: 500;
+$fw-bold: 700;
