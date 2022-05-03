@@ -1,7 +1,9 @@
 <script lang="ts" setup></script>
 
 <template>
-	<div>Component: base/Headline/Headline</div>
+	<component is="h1">
+		<slot/>
+	</component>
 </template>
 
-<style src="Headline.scss" />
+<style src="./Headline.scss" />

@@ -4,4 +4,4 @@
 	<div>Component: base/Logo/Logo</div>
 </template>
 
-<style src="Logo.scss" />
+<style src="./Logo.scss" />

@@ -1,7 +1,7 @@
 <script lang="ts" setup></script>
 
 <template>
-	<div>
+	<div class="app-wrapper">
 		<AppHeader> </AppHeader>
 		<div class="app-main">
 
@@ -10,4 +10,4 @@
 	</div>
 </template>
 
-<style scoped />
+<style/>

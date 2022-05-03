@@ -56,9 +56,6 @@ html {
 }
 
 body {
-	display: flex;
-	align-items: stretch;
-	flex-direction: column;
 	font-family: $ff-bc;
 	font-weight: $fw-normal;
 	@include font-size(16px);
@@ -77,44 +74,14 @@ img {
 	max-width: 100%;
 }
 
-.app-main {
-	flex-grow: 1;
+.app-wrapper {
+	display: flex;
+	align-items: stretch;
+	flex-direction: column;
 	min-height: 100vh;
-	background: red;
 }
 
-// Keeps a padding between Viewport and Container
-.container {
-	padding-left: 30px !important;
-	padding-right: 30px !important;
-	@include media-breakpoint-up(lg) {
-		padding-left: 60px !important;
-		padding-right: 60px !important;
-	}
-	&-sm,
-	&-md,
-	&-lg,
-	&-xl {
-		margin: 0 auto;
-	}
-	&-sm {
-		@include media-breakpoint-up(sm) {
-			padding-left: 30px !important;
-			padding-right: 30px !important;
-		}
-		@include media-breakpoint-up(lg) {
-			padding-left: 60px !important;
-			padding-right: 60px !important;
-		}
-	}
-	&-md {
-		@include media-breakpoint-up(md) {
-			padding-left: 30px !important;
-			padding-right: 30px !important;
-		}
-		@include media-breakpoint-up(lg) {
-			padding-left: 60px !important;
-			padding-right: 60px !important;
-		}
-	}
+.app-main {
+	flex-grow: 1;
+	background: red;
 }

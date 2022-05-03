@@ -1,10 +1,10 @@
+//Mixins
+@import 'mixins/responsive-font-size';
+@import 'mixins/utils';
+
 //Variables
 @import 'variables/grid';
 @import 'variables/spacings';
 @import 'variables/typo';
 @import 'variables/colors';
 @import 'variables/transitions';
-
-//Mixins
-@import 'mixins/responsive-font-size';
-@import 'mixins/utils';

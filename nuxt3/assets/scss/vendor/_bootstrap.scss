@@ -1,9 +1,15 @@
+//Defaults
+$enable-grid-classes: true;
+$grid-row-columns: 6;
+$displays: none, inline, inline-block, block, table, table-row, table-cell, flex, inline-flex;
+$overflows: auto, hidden;
+$positions: static, relative, absolute, fixed, sticky;
+$user-selects: all, auto, none;
+
+@import 'bootstrap/scss/functions';
+@import 'bootstrap/scss/mixins/breakpoints';
 @import 'bootstrap/scss/mixins/grid';
-@import 'bootstrap/scss/mixins/grid_framework';
+@import 'bootstrap/scss/mixins/grid-framework';
 @import 'bootstrap/scss/grid';
-
-@import 'bootstrap/scss/mixins/container';
-@import 'bootstrap/scss/container';
-
-@import 'bootstrap/scss/utility/display';
-@import 'bootstrap/scss/utility/flex';
+@import 'bootstrap/scss/utilities/display';
+@import 'bootstrap/scss/utilities/flex';

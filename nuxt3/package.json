@@ -11,7 +11,10 @@
     "nuxt": "3.0.0-rc.1"
   },
   "dependencies": {
+    "@nuxtjs/style-resources": "^1.2.1",
     "@pinia/nuxt": "^0.1.8",
-    "pinia": "^2.0.13"
+    "pinia": "^2.0.13",
+    "sass": "^1.51.0",
+    "sass-loader": "^12.6.0"
   }
 }

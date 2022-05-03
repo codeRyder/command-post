@@ -1,9 +1,14 @@
 <script lang="ts" setup></script>
 
 <template>
-  <div>
-    Component: app/AppHeader/AppHeader
-  </div>
+	<header class="app-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-12 d-flex justify-content-center">Component: app/AppHeader/AppHeader</div>
+				<Headline> Test </Headline>
+			</div>
+		</div>
+	</header>
 </template>
 
-<style scoped/>
+<style src="./AppHeader.scss" />

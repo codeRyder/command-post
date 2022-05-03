@@ -6,4 +6,4 @@
   </div>
 </template>
 
-<style src="Image.scss"/>
+<style src="./Image.scss"/>

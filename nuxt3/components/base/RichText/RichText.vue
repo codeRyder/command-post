@@ -4,4 +4,4 @@
 	<div>Component: base/RichText/RichText</div>
 </template>
 
-<style src="RichText.scss" />
+<style src="./RichText.scss" />

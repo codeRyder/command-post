@@ -4,4 +4,4 @@
 	<div>Component: base/Link/Link</div>
 </template>
 
-<style src="Link.scss" />
+<style src="./Link.scss" />
