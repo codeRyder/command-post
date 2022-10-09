@@ -1,16 +1,33 @@
 {
-  "name": "command-post",
-  "version": "1.0.0",
-  "description": "JvM Neckar Boilerplate",
-  "main": "index.js",
-  "repository": "git@github.com:codeRyder/command-post.git",
-  "author": "Felix Hammer <felix.hammer@jvm.de>",
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "start:nuxt3": "yarn --cwd ./nuxt3 dev",
-    "build:nuxt3": "yarn --cwd ./nuxt3 build",
-    "generate:nuxt3": "yarn --cwd ./nuxt3 generate",
-    "preview:nuxt3": "yarn --cwd ./nuxt3 preview"
+	"name": "command-post",
+	"version": "1.0.0",
+	"description": "Jung von Matt NECKAR | Boilerplate",
+	"type": "module",
+	"repository": "git@github.com:codeRyder/command-post.git",
+	"author": "Felix Hammer <felix.hammer@jvm.de>",
+  "engines": {
+    "node": ">= 16"
+  },
+	"license": "MIT",
+	"private": true,
+	"scripts": {
+		"plop": "yarn esmo .plop/index.ts",
+		"start:nuxt3": "yarn --cwd ./nuxt3 dev",
+		"build:nuxt3": "yarn --cwd ./nuxt3 build",
+		"generate:nuxt3": "yarn --cwd ./nuxt3 generate",
+		"preview:nuxt3": "yarn --cwd ./nuxt3 preview"
+	},
+  "devDependencies": {
+    "@types/inquirer-autocomplete-prompt": "^1.3.3",
+    "@types/minimist": "^1.2.2",
+    "esbuild": "^0.14.23",
+    "esbuild-node-loader": "^0.6.5",
+    "esmo": "^0.14.1",
+    "inquirer-autocomplete-prompt": "^2.0.0",
+    "minimist": "^1.2.5",
+    "patch-package": "^6.4.7",
+    "plop": "^3.0.5",
+    "postinstall-postinstall": "^2.1.0",
+    "typescript": "^4.5.5"
   }
 }
